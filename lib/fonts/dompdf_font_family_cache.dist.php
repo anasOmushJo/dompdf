@@ -92,6 +92,13 @@ return function ($rootDir) {
                 'bold_italic' => $distFontDir . '/DejaVuSerif-BoldItalic',
                 'italic' => $distFontDir . '/DejaVuSerif-Italic',
                 'normal' => $distFontDir . '/DejaVuSerif'
+            ],
+        'jf flat' =>
+            [
+                'bold' => $distFontDir . '/JF-Flat-Bold',
+                'bold_italic' => $distFontDir . '/JF-Flat-Bold',
+                'italic' => $distFontDir . '/JF-Flat-Regular',
+                'normal' => $distFontDir . '/JF-Flat-Regular'
             ]
     ];
 };
